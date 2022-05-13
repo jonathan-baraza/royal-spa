@@ -4,6 +4,7 @@
   GROUP MEMBERS:
   JONATHAN BARAZA COM/09/18
   BERYL GEKONGE COM/07/18 
+  MICHAEL MURITHI COM/20/18
 -->
 <html lang="en">
   <head>
@@ -212,18 +213,22 @@
     </style>
   </head>
   <body>
-    <!-- 
+  <!-- 
   GROUP MEMBERS:
   JONATHAN BARAZA COM/09/18
   BERYL GEKONGE COM/07/18 
+  MICHAEL MURITHI COM/20/18
 -->
 
     <nav
       id="navbar"
       class="navbar navbar-expand-lg py-2 shadow navbar-light fixed-top"
     >
-      <div class="container">
-        <a class="navbar-brand fw-bolder" href="#"
+      <div class="container p-2" style="overflow-y: hidden">
+        <a
+          class="navbar-brand fw-bolder"
+          href="#"
+          style="transform: rotate(-8deg)"
           >RoyalSpa<i class="bi bi-hearts spa-heading"></i
         ></a>
         <button
@@ -318,7 +323,15 @@
             <a
               href="#contact"
               class="btn m-5 animate__animated animate__delay-2 animate__bounce animate__slow book-appointment"
-              style="background-color: #ff0080; color: white"
+              style="
+                background-color: #ff0080;
+                color: white;
+                background-image: radial-gradient(
+                  circle at 10% 10%,
+                  rgba(255, 70, 163, 1),
+                  rgba(255, 0, 128, 1)
+                );
+              "
             >
               Book appointment now!
             </a>
@@ -409,13 +422,23 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div id="aboutus" class="pt-5">
+    <div
+      id="aboutus"
+      class="pt-5"
+      style="
+        background-image: url(assets/images/logo.PNG);
+        background-repeat: repeat-x;
+        background-position: left top;
+      "
+    >
       <div
         class="row mx-auto justify-content-center mt-5 p-3 justify-content-around"
       >
-        <h3 class="mb-4 mx-auto spa-heading text-center pb-2">Who we are</h3>
+        <h3 class="mb-4 mx-auto spa-heading text-center pb-2">
+          Who we are <i class="bi bi-info-circle ms-2 spa-heading"></i>
+        </h3>
         <div class="col-sm-5">
-          Serenity Spa opened its doors to Nairobi’s spa lovers in 2013 with the
+          The Royal Spa opened its doors to Nairobi’s spa lovers in 2013 with the
           aim of refreshing, rejuvenating and rebalancing our customers. With a
           team of highly trained therapists and top-quality products, we strive
           to grow and maintain our standards as a world-class spa that offers
@@ -465,7 +488,9 @@
       id="services"
       class="row mx-auto justify-content-around mt-5 pt-5 pb-3 pl-3 pr-3 text-center border rounded bg-light m-2"
     >
-      <h3 class="m-5 spa-heading">What we offer</h3>
+      <h3 class="m-5 spa-heading">
+        What we offer <i class="bi bi-card-checklist ms-2 spa-heading"></i>
+      </h3>
       <div class="col-sm-6">
         <img src="assets/images/pic1.jpg" class="w-100" />
       </div>
@@ -478,7 +503,19 @@
           formulated massage oils. These oils help your body to relax from
           tension in the muscle and tender tissues, giving your body the right
           pampering to release tension and stress that builds up. Our massages
-          always have a happy ending!
+          always have a happy ending! Royal Spa makes spas and beauty institutes
+          grow faster by highlighting their unique qualities and promoting their
+          outlets through beneficial advertising campaigns. At Royal Spa we
+          indeed consider that the better the offers and promotions are, the
+          more they deserve to be shown to our large audience.We are very often
+          in touch with spas accross the globe, whatever their size. We also try
+          to constantly build deep links with spas that are not registered on
+          Royal Spa yet. Keeping each other informed about our latest
+          improvements is something crucial for both sides. Our regular and
+          professional relationships with spas enable us to transform Royal Spa
+          into a platform that will become the online reference spas and beauty
+          institutes. Therefore, we truly have the feeling to support the
+          wellness industry.
         </div>
       </div>
 
@@ -535,8 +572,57 @@
         </a>
       </div>
     </div>
+    <div class="w-100 row d-flex justify-content-around">
+      <h3
+        class="spa-heading mx-auto text-center mt-5"
+        style="letter-spacing: 2px"
+      >
+        Customer Testimonials <i class="bi bi-people ms-2 spa-heading"></i>
+      </h3>
+      <div
+        class="col-sm-3 mt-4 ps-5 pe-5 d-flex flex-column align-items-center"
+      >
+        <img
+          src="./assets/images/user1.jpg"
+          class="rounded-circle shadow"
+          style="width: 100px; height: 100px"
+        />
+        <span class="mt-3 text-center" style="font-style: italic"
+          >"Amazing services from day one, I cant wait to get more."</span
+        >
+      </div>
+      <div
+        class="col-sm-3 mt-4 ps-5 pe-5 d-flex flex-column align-items-center"
+      >
+        <img
+          src="./assets/images/user2.jpg"
+          class="rounded-circle shadow"
+          style="width: 100px; height: 100px"
+        />
+        <span class="mt-3 mt-4 ps-4 pe-4 text-center" style="font-style: italic"
+          >"This is the best spa i have ever gone to. I always recommend it to
+          my friends."</span
+        >
+      </div>
+      <div class="col-sm-3 mt-4 d-flex flex-column align-items-center">
+        <img
+          src="./assets/images/user3.jpg"
+          class="rounded-circle shadow"
+          style="width: 100px; height: 100px"
+        />
+        <span class="mt-3 text-center" style="font-style: italic"
+          >"An amazing place to relax after a long day. professional yet
+          affordable services. Such a vibe!"</span
+        >
+      </div>
+    </div>
     <div id="contact" class="row mt-5 pt-5">
-      <h3 class="spa-heading mx-auto text-center mt-5">Contact us</h3>
+      <h3
+        class="spa-heading mx-auto text-center mt-5"
+        style="letter-spacing: 2px"
+      >
+        Contact us <i class="bi bi-envelope ms-2 spa-heading"></i>
+      </h3>
       <div class="col-sm-6 p-3">
         <div class="m-5">
           We would be glad to host you. Feel free to reach us at anytime. For
@@ -690,4 +776,5 @@
   GROUP MEMBERS:
   JONATHAN BARAZA COM/09/18
   BERYL GEKONGE COM/07/18 
+  MICHAEL MURITHI COM/20/18
 -->
